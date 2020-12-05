@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add a new Employee using a POST request",
+        "description": "",
+        "id": "add-and-delete-employee;add-a-new-employee-using-a-post-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2534014459,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Add Employee payload from \"CreateEmployee.json\" file",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CreateEmployee.json\"",
+                  "offset": 26
+                }
+              ],
+              "location": "VerifyAddAndDeleteEmployee.AddEmployee(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2884840435,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"createEmployee\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"createEmployee\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 33
+                }
+              ],
+              "location": "VerifyAddAndDeleteEmployee.createNewEmployee(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1257415859,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify created response to using \"get\" with \"getEmployee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"get\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"getEmployee\"",
+                  "offset": 44
+                }
+              ],
+              "location": "VerifyAddAndDeleteEmployee.verifyusingGet(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 932191846,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Delete the created employee using \"deleteEmployee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deleteEmployee\"",
+                  "offset": 34
+                }
+              ],
+              "location": "VerifyAddAndDeleteEmployee.deleteCreatedEmployee(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Add and delete employee",
+    "description": "",
+    "id": "add-and-delete-employee",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AddAndDeleteEmployee.feature",
+    "tags": []
+  }
+]

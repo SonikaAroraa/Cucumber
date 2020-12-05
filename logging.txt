@@ -1,0 +1,119 @@
+Request method:	POST
+Request URI:	http://dummy.restapiexample.com/api/v1/create
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+CreateEmployee.json
+HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=31536000
+Content-Type: application/json
+Date: Sat, 05 Dec 2020 17:45:33 GMT
+Display: staticcontent_sol
+Expires: Sun, 05 Dec 2021 17:45:32 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Referrer-Policy: 
+Response: 200
+Server: nginx/1.16.0
+Vary: Accept-Encoding
+Vary: Accept-Encoding,Origin
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: pub_site
+Content-Length: 130
+
+{
+    "status": "success",
+    "data": {
+        "name": "Sonika",
+        "salary": "123",
+        "age": "23",
+        "id": 8880
+    },
+    "message": "Successfully! Record has been added."
+}
+Request method:	GET
+Request URI:	http://dummy.restapiexample.com/api/v1/employee/8880
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+CreateEmployee.json
+HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=31536000
+Content-Type: application/json
+Date: Sat, 05 Dec 2020 17:45:35 GMT
+Display: staticcontent_sol
+Expires: Sun, 05 Dec 2021 17:45:34 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Referrer-Policy: 
+Response: 200
+Server: nginx/1.16.0
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent,Origin
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: pub_site
+Content-Length: 83
+
+{
+    "status": "success",
+    "data": null,
+    "message": "Successfully! Record has been fetched."
+}
+Request method:	DELETE
+Request URI:	http://dummy.restapiexample.com/api/v1/delete/8880
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+CreateEmployee.json
+HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=31536000
+Content-Type: application/json
+Date: Sat, 05 Dec 2020 17:45:36 GMT
+Display: staticcontent_sol
+Expires: Sun, 05 Dec 2021 17:45:35 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Referrer-Policy: 
+Response: 200
+Server: nginx/1.16.0
+Vary: Accept-Encoding
+Vary: Accept-Encoding,Origin
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: pub_site
+Content-Length: 84
+
+{
+    "status": "success",
+    "data": "8880",
+    "message": "Successfully! Record has been deleted"
+}
